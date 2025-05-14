@@ -1,6 +1,6 @@
 # Rice Classification Using Machine Learning
 
-This project focuses on classifying rice grains into two distinct varieties — Gonen and Jasmine — by leveraging machine learning algorithms trained on their morphological and geometric characteristics.
+This project focuses on classifying rice grains into two distinct varieties — **Gonen** and **Jasmine** — by leveraging machine learning algorithms trained on their morphological and geometric characteristics.
 
 ---
 
@@ -8,6 +8,7 @@ This project focuses on classifying rice grains into two distinct varieties — 
 
 ```
 Rice Classification Using Machine Learning/
+├── RiceSeed.xlsx                # Excel file containing the dataset
 ├── dataPrep.py                  # Data cleaning and preprocessing script
 ├── Py_16.ipynb                  # Jupyter Notebook with model training and evaluation
 ├── Description of the dataset.pdf  # Dataset and feature description
@@ -50,8 +51,6 @@ Performs the following:
 - Outliers are removed using the Interquartile Range (IQR) method.
 - Duplicates are dropped for data cleanliness.
 
-
-
 ---
 
 ## 📒 Jupyter Notebook
@@ -74,6 +73,7 @@ Includes:
 - numpy
 - scikit-learn
 - matplotlib / seaborn
+- openpyxl (for reading Excel files)
 
 ---
 
